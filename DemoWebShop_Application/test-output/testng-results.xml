@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-25T11:30:20 IST" name="Suite" finished-at="2023-11-25T11:30:41 IST" duration-ms="20873">
+    <groups>
+      <group name="system">
+        <method signature="TC_DWS_001_Test.loginTest()[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" name="loginTest" class="login.TC_DWS_001_Test"/>
+        <method signature="TC_DWS_002_Test.addTocart()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" name="addTocart" class="shoppingcart.TC_DWS_002_Test"/>
+      </group> <!-- system -->
+    </groups>
+    <test started-at="2023-11-25T11:30:20 IST" name="Test" finished-at="2023-11-25T11:30:41 IST" duration-ms="20873">
+      <class name="shoppingcart.TC_DWS_002_Test">
+        <test-method is-config="true" signature="configReports()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:20 IST" name="configReports" finished-at="2023-11-25T11:30:20 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReports -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:20 IST" name="browserSetup" finished-at="2023-11-25T11:30:25 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:25 IST" name="login" finished-at="2023-11-25T11:30:28 IST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void shoppingcart.TC_DWS_002_Test.addTocart() throws org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addTocart()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:28 IST" name="addTocart" finished-at="2023-11-25T11:30:33 IST" duration-ms="5505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTocart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:33 IST" name="logout" finished-at="2023-11-25T11:30:34 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:34 IST" name="closeBrowser" finished-at="2023-11-25T11:30:34 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:shoppingcart.TC_DWS_002_Test@175c2241]" started-at="2023-11-25T11:30:41 IST" name="reportBackup" finished-at="2023-11-25T11:30:41 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- shoppingcart.TC_DWS_002_Test -->
+      <class name="login.TC_DWS_001_Test">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" started-at="2023-11-25T11:30:34 IST" name="browserSetup" finished-at="2023-11-25T11:30:38 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" started-at="2023-11-25T11:30:38 IST" name="login" finished-at="2023-11-25T11:30:40 IST" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.TC_DWS_001_Test.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginTest()[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" started-at="2023-11-25T11:30:40 IST" name="loginTest" finished-at="2023-11-25T11:30:40 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" started-at="2023-11-25T11:30:40 IST" name="logout" finished-at="2023-11-25T11:30:40 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:login.TC_DWS_001_Test@6c6cb480]" started-at="2023-11-25T11:30:40 IST" name="closeBrowser" finished-at="2023-11-25T11:30:41 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- login.TC_DWS_001_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
